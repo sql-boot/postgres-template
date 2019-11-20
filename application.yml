@@ -10,7 +10,7 @@ conf:
     - name: demodb
       confDir: /sql-boot/sql
       properties:
-        jdbc_url: jdbc:postgresql://demo-db-server:5432/demo
+        jdbc_url: jdbc:postgresql://test-db-server:5432/demo
         db_user: postgres
         db_password: postgres
         sql_dialect: postgres

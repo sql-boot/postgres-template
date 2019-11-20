@@ -1,7 +1,7 @@
 version: '3'
 services:
 
-  demo-db-server:
+  test-db-server:
     image: mgramin/postgres-pro-demodb-small
     ports:
       - "5432:5432"
